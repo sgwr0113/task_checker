@@ -1,0 +1,25 @@
+.genre_title {
+  width: 200px;
+}
+
+.input_title {
+  height: 3px;
+}
+
+input,
+textarea {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 16px;
+  border-radius: 5px;
+  width: 230px;
+  line-height: 1.5em;
+}
+
+.delete_button {
+  margin-top: 20px;
+  border-style: none;
+  font-size: 12px;
+  color: rgb(196, 82, 53);
+  border-bottom: medium solid rgb(196, 82, 53);
+}

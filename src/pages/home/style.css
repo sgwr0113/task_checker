@@ -1,0 +1,21 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f8f9;
+}
+
+.genre {
+  height: 40px;
+  padding-top: 20px;
+}
+
+.contents {
+  height: calc(100vh - 120px);
+  width: 100%;
+  overflow: scroll;
+}
+
+.add_circle_outline_icon {
+  margin-left: 10px;
+  color: rgb(70, 70, 70);
+}

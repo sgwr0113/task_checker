@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* ここに書いておけば、クラス名を足すだけでcssを適用できる */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.horizontal_center {
+  justify-content: center;
+}
+
+.vertical_center {
+  align-items: center;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.direction_column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px 6px;
+  font-size: 13px;
+}
+
+.input_submit {
+  margin-top: 30px;
+  background-color: rgb(66, 163, 247);
+  color: white;
+  border-radius: 25px;
+  border-style: none;
+  padding: 16px 40px;
+  font-size: 15px;
+}
+
+.select {
+  height: 25px;
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+  border: none;
+  border-bottom: thin solid #cfcfcf;
+  outline: none;
+  cursor: pointer;
+}
